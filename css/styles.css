@@ -56,11 +56,6 @@ header{
 }
 
 /* main */
-
-.section-title{
-color: var(--title-text-color);
-}
-
 /* hero */
 
 .hero{
@@ -70,19 +65,14 @@ color: var(--title-text-color);
     color: #FFFFFF;
 }
 
-/* feature */
+/* section */
 
-.feature-list .title{
+.section-title,
+.section-list .title {
     color: var(--title-text-color);
 }
-
-/* team */
-
 .team{
     background-color: #F5F4FA;
-}
-.team-list .title{
-    color: var(--title-text-color);
 }
 
 /* footer */
