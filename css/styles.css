@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #F5F5F5;
+    background-color: #ffffff;
     color: var(--primary-text-color);
 /* font-family: 'Raleway', sans-serif; */
     font-family: 'Roboto', sans-serif;
@@ -23,12 +23,6 @@ a {
 }
 ul {
     list-style: none;
-}
-
-/* header */
-
-header{
-    background-color: #ffffff;
 }
 
 /* logo */
@@ -102,6 +96,10 @@ header{
     background-color: var(--accent-color);
     cursor: pointer;
 }
+.hero .button:hover,
+.hero .button:focus{
+    background-color: #188CE8;
+}
 .section-title{
     font-weight: 700;
     font-size: 36px;
@@ -161,6 +159,7 @@ footer{
     font-size: 14px;
     line-height: 1.7142;
     letter-spacing: 0.03em;
+    font-style: normal;
 }
 .address-list a{
     color: rgba(255, 255, 255, 0.6);
